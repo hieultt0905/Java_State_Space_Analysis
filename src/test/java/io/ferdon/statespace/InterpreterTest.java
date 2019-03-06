@@ -521,11 +521,11 @@ public class InterpreterTest {
         Interpreter.Value res = interpreter.interpretFromString(expression, vars);
     }
 
-    @Test
-    public void testExpressionWithoutVarValue() throws UnsupportedOperationException {
-        expression = "a 3 >";
-        Interpreter.Value res = interpreter.interpretFromString(expression, vars);
-    }
+//     @Test
+//     public void testExpressionWithoutVarValue() throws UnsupportedOperationException {
+//         expression = "a 3 >";
+//         Interpreter.Value res = interpreter.interpretFromString(expression, vars);
+//     }
 
     @Test
     public void testExpressionWithIf01() throws UnsupportedOperationException {
